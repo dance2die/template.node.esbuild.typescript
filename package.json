@@ -1,0 +1,22 @@
+{
+  "name": "bst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2 start npm -- start",
+    "stop": "pm2 stop all",
+    "delete": "pm2 delete all",
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dance2die",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.13.15",
+    "esbuild-node-tsc": "^1.8.0",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2"
+  }
+}
